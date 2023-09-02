@@ -52,6 +52,10 @@ p {
     background-color: rgba(255, 255, 255, 0.9); 
     cursor: pointer;
 }
+.btn:disabled {
+    color: black;
+    cursor: no-drop;
+  }
 .result-container{
     align-items: center;
     display: flex;
